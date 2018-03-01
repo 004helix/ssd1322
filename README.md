@@ -1,7 +1,7 @@
 # SSD1322 display driver
 
-ssd1322.c - double framebuffer spi driver (256x64)
-ssd1322.py - python display class
+- `ssd1322.c` is a double framebuffer spi driver (256x64)
+- `ssd1322.py` is a python display class
 
 ssd1322.service:
 ```
@@ -16,7 +16,7 @@ WantedBy=multi-user.target
 ```
 
 Python example:
-```
+```python
 import cairo
 import ssd1322
 
